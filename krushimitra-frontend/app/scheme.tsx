@@ -426,7 +426,7 @@ export default function GovernmentSchemesScreen() {
     );
   };
 
-  // Add glow effect to buttons on press
+  // Add glow effect to button
   const handlePressIn = (animatedValue: Animated.Value) => {
     Animated.timing(animatedValue, {
       toValue: 0.95,
