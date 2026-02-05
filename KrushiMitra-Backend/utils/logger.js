@@ -9,6 +9,10 @@ if (!fs.existsSync(logsDir)) {
 }
 
 // Create the logger
+
+
+
+
 const logger = winston.createLogger({
   level: 'info',
   format: winston.format.combine(
