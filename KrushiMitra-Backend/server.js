@@ -21,7 +21,7 @@ const { ObjectId } = require('mongodb');
 const { OAuth2Client } = require('google-auth-library'); // Google OAuth verification
 const Groq = require('groq-sdk');
 const multer = require('multer');
-const { identifyPlant } = require('./plantnet_client');
+const { identifyPlant } = require('./plantnet_client');//ERROR FIXED BROOOO
 const { spawn } = require('child_process');
 
 
