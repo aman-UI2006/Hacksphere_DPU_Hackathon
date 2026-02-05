@@ -7,6 +7,7 @@ $headers = @{
     "Content-Type" = "application/json"
 }
 
+
 $body = @{
     model = "llama-3.1-8b-instant"
     messages = @(
